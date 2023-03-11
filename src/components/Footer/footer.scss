@@ -1,0 +1,128 @@
+.footer{
+    background: #0A0808;
+    width: 100%;
+    height: 381px;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 130px;
+        .follow{
+        padding-top: 150px;
+
+            flex-direction: column;
+            img{
+                width: 79px;
+                height: 79px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 17px;
+                letter-spacing: 0.01em;
+                color: #FFFFFF;
+                opacity: 0.7;
+                width: 207px;
+                height: 47px;
+                margin: 9px auto 25px;
+            }
+            h1{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #FFFFFF;
+                margin-bottom: 8px;
+            }
+            .media{
+                display: flex;
+                justify-content: flex-start;
+                gap: 10px;
+                img{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+        .pages{
+        padding-top: 150px;
+
+            :hover{
+                    opacity: 1;
+                }
+            h1{
+                margin: 10px auto;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #FFFFFF;
+                opacity: 0.7;
+            }
+            
+        }
+        .informs{
+        padding-top: 150px;
+
+            :hover{
+                    opacity: 1;
+                }
+            h1{
+                margin: 10px auto;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #FFFFFF;
+                opacity: 0.8;
+            }
+        }
+        .payment{
+        padding-top: 150px;
+
+            h1{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #FFFFFF;
+                
+            }
+            .search{
+                margin: 13px auto 16px;
+                ::placeholder{
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;          
+                    color: #FFFFFF;
+                    opacity: 0.6;
+                }
+                    input{
+                        width: 263px;
+                        height: 55px;
+                        background: #0A0808;
+                        opacity: 0.5;
+                        border: 2px solid #D64374;
+                        border-radius: 5px;
+                    }
+                    button{
+                        width: 125px;
+                        height: 55px;
+                    }
+                }
+                .payment-choice{
+                    img{
+                        margin: 10px;
+                    }
+                }
+        }
+    }
+}

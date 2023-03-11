@@ -1,0 +1,83 @@
+.order{
+    height: 624px;
+    width: 95%;
+    background: #F8EDF0;
+    .container{
+        display: flex;
+        .left{
+            width: 50%;
+            margin-top: 59px;
+            img{
+                border-radius: 7%;
+            }
+        }
+        .right{
+            width: 50%;
+            margin-top: 90px;
+            h1{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 44.2px;
+                line-height: 52px;
+                color: #000000;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                letter-spacing: 0.01em;
+                color: #0F0101;
+            }.steps{
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                 .select{
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    width: 166px;
+                    height: 26px;
+                    img{
+                        margin-right: 10px;
+                        width: 16px;
+                        height: 16px;
+                    }
+                    }
+                    .add{
+                        display: flex;
+                        justify-content: start;
+                        align-items: start;
+                        width: 166px;
+                        height: 26px;
+                        img{
+                        margin-right: 10px;
+
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                    .order{
+                        display: flex;
+                        justify-content: start;
+                        align-items: start;
+                        width: 166px;
+                        height: 26px;
+                        img{
+                        margin-right: 10px;
+
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            .download{
+                display: flex;
+                margin-top: 30px;
+            }
+        }
+    }
+}

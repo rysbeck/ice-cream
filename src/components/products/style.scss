@@ -1,0 +1,203 @@
+.products{
+    width: 95%;
+    height: 2346px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        height: 1506px;
+        width: 1160px;
+        .top{
+            p{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 44.2px;
+                line-height: 61px;
+                color: #150101;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 137px;
+            }
+            .assets{
+                display: flex;
+                justify-content: space-between;
+                height: 102px;
+                gap: 39px;
+                align-items: center;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+                a{
+                    gap: 39px;
+                    display: flex;
+                    justify-content: space-between;
+                    height: 102px;
+                    align-items: center;
+                    text-decoration: none;
+                    color: #150101;
+                    transition: all 0.2s ease-in;
+                    opacity: 0.6;
+                    &:hover{
+                        color: #d23166;
+                        opacity: 1;
+                        transition: all 0.2s ease-in;
+            }
+                }
+            }
+        }
+        .brown__bread{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px auto;
+            gap: 85px;
+            h1{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 36px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                opacity: 0.7;
+                margin: 11px auto 34px;    
+            }
+            .price{
+                display: flex;
+                h1{
+                    font-family: 'Hind Madurai';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 36px;                
+                    color: #000000;
+                }
+                h2{
+                    font-family: 'Hind Madurai';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 28px;
+                    text-decoration-line: line-through;
+                    color: #000000;
+                    opacity: 0.7;
+                    margin-left: 5px;
+                    padding-top: 5px;
+                }
+            }
+            button{
+                margin-top: 15px;
+            }
+        }
+        .cayennechocolate{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin: 50px auto;
+            gap: 85px;
+            h1{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 36px;
+            }
+            p{
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #000000;
+                opacity: 0.7;
+                margin: 11px auto 34px;    
+            }
+            .price{
+                display: flex;
+                h1{
+                    font-family: 'Hind Madurai';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 36px;                
+                    color: #000000;
+                }
+                h2{
+                    font-family: 'Hind Madurai';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 28px;
+                    text-decoration-line: line-through;
+                    color: #000000;
+                    opacity: 0.7;
+                    margin-left: 5px;
+                    padding-top: 5px;
+                }
+            }
+            button{
+                margin-top: 15px;
+            }       
+        }
+        .comment{
+            display: flex;
+            .person{
+            margin-right: 224px;
+
+            width: 50%;
+
+                .commenter{
+                    display: flex;
+                    align-items:end;
+                    gap: 11px;
+                    h1{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 28px;                    
+                        color: #000000;
+                    }
+                    p{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 14px;
+                        text-align: center;
+                        color: #000000;
+                        opacity: 0.7;
+                        display: flex;
+                        margin-top: 8px;
+                    }
+                }
+                .comm{
+                    margin-top: 46px;
+                    margin-bottom: 56px;
+                    width: 322px;
+                    span{
+                        color: #F6762C;
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        font-size: 30px;
+                    }
+                }
+            }
+            .people{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+}

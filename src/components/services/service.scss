@@ -1,0 +1,143 @@
+.service{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    
+    .container1{
+        width: 70%;
+        height: 20vh;
+        display: flex;
+        gap: 39px;
+        .car{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            height: 200px;
+            padding: 35px 26px 28px;
+            img{
+                width: 51px;
+                height: 43.35px;
+
+            }
+            p{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                margin: 23px auto 9px;
+            }
+            h4{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                opacity: 0.6;
+            }
+        }
+        .coffee{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            height: 200px;
+            padding: 35px 26px 28px;
+            
+            img{
+                width: 51px;
+                height: 43.35px;
+
+            }
+            p{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                margin: 23px auto 9px;
+
+            }
+            h4{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                opacity: 0.6;
+            }
+        }
+        .cash{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            height: 200px;
+            padding: 35px 26px 28px;
+
+            img{
+                width: 51px;
+                height: 43.35px;
+
+            }
+            p{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                margin: 23px auto 9px;
+
+            }
+            h4{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                opacity: 0.6;
+            }
+        }
+        .delivery{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            height: 200px;
+            padding: 35px 26px 28px;
+
+            img{
+                width: 51px;
+                height: 43.35px;
+
+            }
+            p{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 28px;
+                margin: 23px auto 9px;
+
+            }
+            h4{
+                font-family: 'Hind Madurai';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+                color: #000000;
+                opacity: 0.6;
+            }
+        }
+    }
+}
